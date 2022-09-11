@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: hsl(204, 43%, 93%);
+  padding: 25% 20%;
+}
+.top {
+  padding: 5% 5%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+h1 {
+  font-family: "karla";
+}
+h2 {
+  color: hsl(179, 62%, 43%);
+  font-family: "karla";
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-family: "karla";
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+}
+.head {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.make {
+  font-size: xx-large;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 0.4rem;
+}
+#para {
+  font-weight: 100;
+  color: lightgray;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+  height: 25%;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+#header-para{
+    font-family: "karla";
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+}
+p {
+  font-family: "karla";
+  font-weight: 600;
+  line-height: 1.5;
+  color: lightgray;
+  width: 90%;
+}
+#ppp {
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  font-weight: 500;
+}
+.top {
+  background-color: #fff;
+}
+#err {
+  margin-bottom: 2rem;
+}
+.middle {
+  background-color: hsl(179, 60%, 40%);
+  padding: 2% 5% 5%;
+}
+.bottom {
+  background-color: hsl(179, 65%, 44%);
+  padding: 2% 5% 5%;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+.listing {
+  line-height: 0.4;
+  color: #fff;
+  font-weight: lighter;
+  font-size: medium;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width:768px){
+    .bottom{
+        border-bottom-left-radius: 0%;
+    }
+    .middle{
+        border-bottom-left-radius: 2%;
+    }
+    .top{
+        padding-right: 10%;
+        padding-left: 5%;
+    }
+}
