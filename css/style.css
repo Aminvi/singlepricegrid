@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: hsl(204, 43%, 93%);
-  padding: 25% 20%;
+  padding: 14% 9%;
 }
 .top {
   padding: 5% 5%;
@@ -104,4 +104,7 @@ p {
         padding-right: 10%;
         padding-left: 5%;
     }
+  body{
+    padding: 25% 20%;
+  }
 }
